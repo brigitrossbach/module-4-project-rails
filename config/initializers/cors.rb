@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://flatiron-trip-tracker.herokuapp.com/'
+    origins 'https://flatiron-trip-tracker.herokuapp.com'
 
     resource '*',
       headers: :any,
